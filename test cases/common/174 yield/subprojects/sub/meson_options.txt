@@ -1,0 +1,2 @@
+option('super_alone', type : 'string', value : 'three', yielding : false)
+option('super_shared', type : 'string', value : 'four', yielding : true)

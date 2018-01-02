@@ -1,0 +1,2 @@
+option('super_alone', type : 'string', value : 'one')
+option('super_shared', type : 'string', value : 'two')
