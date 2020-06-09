@@ -729,7 +729,7 @@ class CompilerArgs(collections.abc.MutableSequence):
                 if arg in self.__container or arg in self.pre or arg in self.post:
                     continue
             if self._should_prepend(arg):
-                tmp_pre.appendleft(arg)
+                tmp_pre.append(arg)
             else:
                 self.post.append(arg)
         self.pre.extendleft(tmp_pre)
